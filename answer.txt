@@ -1,0 +1,115 @@
+Find supporting picture evidence in the assest folder.
+
+
+ 1. Introduction
+In this assignment, I set up a comprehensive developer environment tailored to software engineering projects. This involved selecting an operating system, installing essential tools like text editors, version control systems, and programming languages, configuring a database, and exploring optional tools like virtualization and IDE extensions. Here is a detailed account of the steps I took, along with the challenges I faced and the strategies I employed to overcome them.
+
+ 2. Operating System Selection and Installation
+Chosen OS: Windows 11  
+Reason: Windows 11 offers a user-friendly interface, broad compatibility with software tools, and strong support for development environments.
+
+Steps:
+1. Download: I downloaded the Windows 11 installation media from the [Microsoft website](https://www.microsoft.com/software-download/windows11).
+2. Installation: Followed the on-screen instructions to install Windows 11 on my machine.
+3. Configuration: Configure system settings to optimize for development, such as enabling virtualization in the BIOS and setting up Windows Subsystem for Linux (WSL).
+
+ 3. Text Editor/IDE Installation
+Chosen IDE: Visual Studio Code  
+Reason: VS Code is highly customizable, supports a wide range of programming languages, and has a rich ecosystem of extensions.
+
+Steps:
+1. Download: I downloaded Visual Studio Code from the [official website](https://code.visualstudio.com/Download).
+2. Installation: Followed the installation wizard to install VS Code.
+3. Configuration: Customized settings such as theme, font size, and installed essential extensions.
+
+ 4. Version Control System Setup
+Tool: Git  
+Repository Hosting: GitHub
+
+Steps:
+1. Install Git: Downloaded and installed Git from the [official website](https://git-scm.com/downloads).
+2. Configuration: Configured Git with my user information:
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
+3. GitHub Account: Created a GitHub account at [github.com](https://github.com).
+4. Repository Initialization:
+    from gitbash
+    mkdir Plp doc
+    cd plp doc
+    git init
+
+5. First Commit:
+    git add README.md
+    git commit -m "Initial commit"
+    git remote add origin 
+    git push -u origin master
+ 5. Programming Languages and Runtimes Installation
+Language: Python
+
+Steps:
+1. Download: I downloaded Python from the [official website](https://www.python.org/downloads/).
+2. Installation: Followed the installation wizard, ensuring the "Add Python to PATH" option was selected.
+3. Verification:
+    ```bash
+    python --version
+    pip --version
+    ```
+
+ 6. Package Managers Installation
+Tool: pip (Python)
+
+Steps:
+1. Verification: pip is included with Python, so I verified its installation:
+    ```bash
+    pip --version
+    ```
+
+ 7. Database Configuration
+Database: MySQL
+
+Steps:
+1. Download: I downloaded the MySQL installer from the [official website](https://dev.mysql.com/downloads/windows/installer/5.7.html).
+2. Installation: Followed the installation wizard to install MySQL.
+3. Configuration: Set up a root password and created a sample database for development.
+
+ 8. Development Environments and Virtualization (Optional)
+Tool: Docker
+
+Steps:
+1. Download: Downloaded Docker Desktop from the [official website](https://www.docker.com/products/docker-desktop).
+2. Installation: Followed the installation instructions.
+3. Verification: Ran a sample container to verify the installation:
+    ```bash
+    docker run hello-world
+    ```
+
+ 9. Extensions and Plugins
+Extensions for VS Code:
+- Python
+- GitLens
+- Docker
+- Prettier - Code formatter
+
+Steps:
+1. Installation: Used the built-in extensions marketplace in VS Code to install the necessary extensions.
+2. Configuration: Configured each extension as per my development needs.
+
+ 10. Documenting the Setup Process
+I created a comprehensive document detailing the steps I took, along with screenshots at each significant step to aid in clarity.
+
+ 11. Challenges and Strategies
+Challenges:
+1. Compatibility Issues: Encountered issues with software compatibility on Windows 11.
+2. Configuration Errors: Faced errors during Git configuration and MySQL setup.
+3. I had to delete and reintall python twice because of pip
+
+Strategies:
+1. Research: Conducted thorough research to find solutions for compatibility issues.
+2. Community Support: Utilised forums and community support for troubleshooting configuration errors.
+3. Documentation: Kept detailed notes and screenshots to track progress and resolve issues efficiently.
+
+ Conclusion
+By completing this setup, I have created a robust developer environment that enhances productivity and ensures a smooth workflow. The skills and knowledge gained through this process will be invaluable for future software engineering projects.
+
